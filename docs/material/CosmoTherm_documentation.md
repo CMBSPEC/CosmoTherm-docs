@@ -111,15 +111,15 @@ The template parameter file starts by specifying the runmode. The following runm
 - **default-loop**: computes a loop over a chosen parameter.
 - **default-Analysis**: runs like the default mode but ends with likelihood evaluations.
 - **visibility**: computes visibility for single heating and decay.
-- **Greens**: delta function injection of energy at \( z_h \) for a range of redshifts.
-- **Greens-nu**: delta function injection of photons at \( \nu_i \) and \( z_i \) for a range of frequencies.
+- **Greens**: delta function injection of energy at $z_h$ for a range of redshifts.
+- **Greens-nu**: delta function injection of photons at $nu_i$ and $z_i$ for a range of frequencies.
 - **Greens-nu-z**: similar to 'Greens_nu' but in redshift.
 
 Other setups are implemented in `./CosmoTherm.cpp` but are not further explained in this section.
 
 ### 2.3.2 Frequency Grid and Redshift Settings
 
-The next block of parameters specifies the frequency grid and redshift settings. The code uses the dimensionless frequency \( x = \frac{h\nu}{kTg} \). The frequency grid parameters are:
+The next block of parameters specifies the frequency grid and redshift settings. The code uses the dimensionless frequency $x = \frac{h\nu}{kTg}$. The frequency grid parameters are:
 
 - `xmin`: lower frequency of the photon spectrum.
 - `xmax`: upper frequency.
@@ -183,7 +183,7 @@ The global 21cm signal can be computed using a module added by Jiten Dhandha in 
 
 # 5.0 Anisotropy Module
 
-The anisotropies module was originally written by Jens Chluba (see results in the [2x2 paper](https://arxiv.org/abs/1202.0057)). Its main goal was to implement the early-universe Boltzmann equation hierarchy with accurate predictions for primordial \( \mu \)- and \( y \)- distortions.
+The anisotropies module was originally written by Jens Chluba (see results in the [2x2 paper](https://arxiv.org/abs/1202.0057)). Its main goal was to implement the early-universe Boltzmann equation hierarchy with accurate predictions for primordial $ \mu $- and $ y $- distortions.
 
 This module was reworked by Thomas Kite.
 
