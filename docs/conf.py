@@ -38,6 +38,7 @@ extensions = [
 	'sphinx_rtd_theme',
     'sphinx_gallery.load_style',  # load CSS for gallery (needs SG >= 0.6)
     'myst_parser',
+    'sphinx.ext.mathjax'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
