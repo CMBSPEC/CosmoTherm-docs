@@ -19,9 +19,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'UoC MPhil DiS Research Computing'
-copyright = '2024, Boris Bolliet'
-author = 'Boris Bolliet'
+project = 'CosmoTherm'
+copyright = '2024, Jens Chluba'
+author = 'Jens Chluba'
 
 # The full version, including alpha/beta/rc tags
 release = 'beta'
