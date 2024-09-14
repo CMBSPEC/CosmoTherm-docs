@@ -37,6 +37,7 @@ extensions = [
 	'sphinx.ext.mathjax',
 	'sphinx_rtd_theme',
     'sphinx_gallery.load_style',  # load CSS for gallery (needs SG >= 0.6)
+    'myst_parser',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -68,3 +69,6 @@ nbsphinx_execute_arguments = [
     "--InlineBackend.rc={'figure.dpi': 96}",
 ]
 # pygments_style = 'sphinx'
+
+
+source_suffix = ['.rst', '.md']

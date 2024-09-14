@@ -7,3 +7,4 @@ Pygments==2.15.0
 sphinxcontrib-bibtex>=2.1
 sphinxcontrib-svg2pdfconverter
 sphinx-gallery
+myst_parser
