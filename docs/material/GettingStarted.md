@@ -4,7 +4,7 @@
 
 CosmoTherm can be used to predict the average spectral distortion signals for a wide range of standard and new physics scenarios (e.g., damping of acoustic modes, adiabatic cooling process, cosmic strings, and decaying particles). It also has a new framework for treating spectral distortion anisotropies, which was more recently developed. Furthermore, it features a Python interface and simple likelihood codes to quickly assess whether a considered distortion scenario is already in tension with existing data from COBE/FIRAS. For monopole distortion scenarios, a movie can be activated to follow the distortion evolution in real time, a feature that can come in handy when developing new modules and scenarios.
 
-The main CosmoTherm paper is **JC & Sunyaev, MNRAS, 2012**, which we kindly ask you to cite when the code is used. However, many powerful features and modules were developed later, and in each of the sections below, we provide more in-depth references that should be considered for citation when using the related modules.
+The main CosmoTherm paper is [JC & Sunyaev, MNRAS, 2012](https://ui.adsabs.harvard.edu/abs/2012MNRAS.419.1294C/abstract), which we kindly ask you to cite when the code is used. However, many powerful features and modules were developed later, and in each of the sections below, we provide more in-depth references that should be considered for citation when using the related modules.
 
 ## 1.1 About this documentation
 
