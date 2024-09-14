@@ -119,7 +119,8 @@ Other setups are implemented in `./CosmoTherm.cpp` but are not further explained
 
 ### 2.3.2 Frequency Grid and Redshift Settings
 
-The next block of parameters specifies the frequency grid and redshift settings. The code uses the dimensionless frequency $x = \frac{h\nu}{kTg}$. The frequency grid parameters are:
+The next block of parameters specifies the frequency grid and redshift settings. The code uses the dimensionless frequency $x = \frac{h\nu}{k T_
+gamma}$. The frequency grid parameters are:
 
 - `xmin`: lower frequency of the photon spectrum.
 - `xmax`: upper frequency.
