@@ -99,6 +99,9 @@ or via the Python interface (see Sect. 7). Instructive example parameter files a
 
 The parameter file is read by a general-purpose parser routine (`./Tools/Simple_routines/parser.cpp`) using tags for the various parameters. These tags must be unique and can include spaces. Most communication with the parameter file is handled in `./CosmoTherm_Plugins/initial_setup.cpp`, as will be explained further below. The parameter files do not have to follow a specific structure and need only set parameters that should not take their internal default values. A complete example is given by `./runfiles/parameter.ini`, which in principle allows running all aspects of the code with only a few line changes.
 
+![Simple Loading Animation](https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif)
+
+
 ### 2.3.1 Runmodes
 
 The template parameter file starts by specifying the runmode. The following runmodes are of most common interest:
