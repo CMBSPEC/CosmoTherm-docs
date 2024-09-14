@@ -20,7 +20,7 @@ Content
    :caption: Getting started
    :maxdepth: 3
 
-   material/GettingStarted.md
+   material/GettingStarted
 
 
 .. toctree::
