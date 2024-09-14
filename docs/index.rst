@@ -17,22 +17,16 @@ Content
 --------------------------
 
 .. toctree::
-   :caption: Getting started
+   :caption: Content
    :maxdepth: 3
 
-   material/GettingStarted
+   material/CosmoTherm_documentation
+
+
 
 
 .. toctree::
-   :caption: Example Classes
-   :maxdepth: 3
-
-   material/ec1/notebook
-   material/ec2/notebook
-
-
-.. toctree::
-   :caption: Miscellaneous
+   :caption: Examples
    :maxdepth: 3
 
    material/misc1/FTimage2d
